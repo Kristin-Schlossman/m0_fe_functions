@@ -21,7 +21,7 @@ function greetPerson(firstName, middleName,lastName) {
     return `thanks for signing up ${fullName}!`
 }
 console.log(greetPerson("Michelle ", "Lee ", "Town"));
-// QUESTION FOR PROFESSORS: this seems inelligant. Is there a better way to do this?
+// QUESTION FOR PROFESSORS: this seems inelligant. Is there a better way to do this? 
 
 // 4: Write a function named square that takes in one number, and returns the square of that number.
 // BONUS: Print a sentence that interpolates the return value of your square function.

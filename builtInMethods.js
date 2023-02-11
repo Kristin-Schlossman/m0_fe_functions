@@ -41,12 +41,12 @@ console.log(firstName.startsWith("J"));
 var homeState = "Washington"
 var currentState = "  Oregon  "
 console.log(homeState.includes("a"));
-// The .includes method is being called on the homeState string, which stores the string "Washington"
+// The .includes method is being called on the homeState string, which stores the string object "Washington"
 // The return value, which prints to the console, is true. 
-// The .includes method is asking, "does this string include a?"
+// The .includes() method returns true because the string object "Washington" does contain "a", the arugement passed in.
 
 console.log(currentState.trim());
-//The .trim() is being called on the currentState String, which stores the word "Oregon" but with some extra spaces
+//The .trim() is being called on the currentState String, which stores the string object "Oregon" but with some extra spaces
 //the return value removes those spaces. 
 
 // SECTION 3: Calling methods on variables assigned to arrays.
@@ -54,3 +54,15 @@ console.log(currentState.trim());
 // Call a different built-in JavaScript method on each of your variables. 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 // Include comments above each method call explaining the impact and return value of that method.
+
+var norwegianNums = ["En", "To", "Tre"];
+var numberal = [1, 2, 3];
+
+norwegianNums.pop();
+console.log(norwegianNums);
+//The .pop() is being called on the norwegianNums array, which stores the string object spellings of 1, 2, and 3 in norwegian
+//The pop method removes the last element in the array, and returns a new array of a different length
+
+console.log(numberal.shift());
+//The .shift method is being called on the numeral array and printing to the console. 
+//This method removes the first element, and returns what was removed. 

@@ -31,14 +31,23 @@
 // Include comments above each method call explaining the impact and return value of that method.
 
 // EXAMPLE
+var firstName = "Jeff";
+console.log(firstName.startsWith("J"));
 // The startsWith() method is called on the firstName variable, which stores the string object "Jeff". 
 // The startsWith() method returns true if the data in the firstName variable starts with the argument passed in.
 // In this example, the return value is true, because "Jeff" does start with "J".
 // The console.log() statements prints the return value of the startsWith() method (true) to the console.
-var firstName = "Jeff";
-console.log(firstName.startsWith("J"));
 
+var homeState = "Washington"
+var currentState = "  Oregon  "
+console.log(homeState.includes("a"));
+// The .includes method is being called on the homeState string, which stores the string "Washington"
+// The return value, which prints to the console, is true. 
+// The .includes method is asking, "does this string include a?"
 
+console.log(currentState.trim());
+//The .trim() is being called on the currentState String, which stores the word "Oregon" but with some extra spaces
+//the return value removes those spaces. 
 
 // SECTION 3: Calling methods on variables assigned to arrays.
 // Declare 2 variables assigned to arrays.

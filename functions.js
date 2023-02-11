@@ -4,13 +4,13 @@
 // Use console.log() to see the return value in the console.
 
 // 1: Write a function named greeting that returns a string with a general greeting. 
-
+function greeting();
 
 // 2: Write a function named customGreeting that returns a greeting WITH a specific name.
-
+function customGreeting();
 
 // 3: Write a function named greetPerson that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
-
+function greetPerson();
 
 // 4: Write a function named square that takes in one number, and returns the square of that number.
 // BONUS: Print a sentence that interpolates the return value of your square function.
@@ -18,7 +18,7 @@
 
 // 5: Write a function named checkStock that satisfies the following interaction pattern:
 // Hint: You will only write one checkStock function that checks the quantity and then prints the corresponding statement.
-
+function checkStock();
 checkStock(4, "Coffee");
 // => "Coffee is stocked"
 

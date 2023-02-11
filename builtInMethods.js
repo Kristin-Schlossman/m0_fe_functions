@@ -10,13 +10,18 @@
 
 
 "Hello World".includes("Hello");
-
+// No arguements are passed, which is to say this isn't a function being called. It's just a boolean that will return "true" 
+// The .includes() method is being called on the string "Hellow World" and it's asking, "Does the string include 'Hello'?"
 
 "Hello World".endsWith("Hello");
-
+// No arguements are passed, which is to say this isn't a function being called. 
+// It's just a boolean that will return "false" 
+// The method .ends with is being called on the string "Hello World"
 
 "Hello World".endsWith("rld");
-
+// No arguements are passed, which is to say this isn't a function being called. 
+// It's just a boolean that will return "true" 
+// The method .ends with is being called on the string "Hello World"
 
 
 // SECTION 2: Calling methods on variables assigned to strings.
